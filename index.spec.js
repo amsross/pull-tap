@@ -1,9 +1,8 @@
 const test = require('tape')
-const { pull, asyncMap, collect, map, onEnd, values } = require('pull-stream')
+const { pull, asyncMap, onEnd, values } = require('pull-stream')
 const { tap, asyncTap } = require('./')
 
 test('pull-tap', assert => {
-
   assert.test('tap', assert => {
     let counter = 0
     const inputs = [1, 2]
@@ -14,7 +13,7 @@ test('pull-tap', assert => {
       onEnd((err, data) => {
         assert.ifError(err, 'no error')
         assert.equal(counter, inputs.length)
-        assert.end();
+        assert.end()
       }))
   })
 
@@ -32,7 +31,7 @@ test('pull-tap', assert => {
       onEnd((err, data) => {
         assert.ifError(err, 'no error')
         assert.equal(counter, inputs.length)
-        assert.end();
+        assert.end()
       }))
   })
 
