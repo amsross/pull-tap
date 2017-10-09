@@ -1,5 +1,7 @@
 # pull-tap
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/amsross/pull-tap.svg)](https://greenkeeper.io/)
+
 Sync and async side-effectful functions.
 
 ## example
