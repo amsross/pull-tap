@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "nodemon": "^1.14.9",
-    "standard": "^13.0.1",
+    "standard": "^14.3.0",
     "tap-spec": "^5.0.0",
     "tape": "^4.8.0",
     "semantic-release": "^15.10.3"
